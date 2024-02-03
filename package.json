@@ -1,6 +1,7 @@
 {
   "name": "vue-sneakers",
   "version": "0.0.0",
+  "homepage": "https://instntndls.github.io/vue-sneakers",
   "private": false,
   "type": "module",
   "scripts": {
