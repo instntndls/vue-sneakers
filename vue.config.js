@@ -1,3 +1,3 @@
 module.exports = {
-  baseURL: '/vue-sneakers/'
+  publicPath: '/vue-sneakers/'
 }
