@@ -23,7 +23,7 @@ const props = defineProps ({
     transition
     hover:-translate-y-0.5
     hover:shadow-xl">
-      <img :src="isFavorite ? '/like-2.svg' : '/like-1.svg'" alt="Like"
+      <img :src="isFavorite ? '/vue-sneakers/like-2.svg' : '/vue-sneakers/like-1.svg'" alt="Like"
            class="absolute top-8 left-8 shadow-sm rounded-md" @click="onClickFavorite"/>
 
       <img class="w-full" :src="imageUrl" alt="Sneaker"/>
@@ -37,7 +37,7 @@ const props = defineProps ({
           <b>{{price}} rub.</b>
         </div>
 
-        <img :src="isAdded ? '/checked.svg' : '/plus.svg'" alt="Plus"
+        <img :src="isAdded ? '/vue-sneakers/checked.svg' : '/vue-sneakers/plus.svg'" alt="Plus"
              class="h-max shadow-sm rounded-md" @click="onClickAdd"/>
       </div>
   </div>
