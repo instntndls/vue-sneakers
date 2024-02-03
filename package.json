@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "host": "vite --host --port 8000",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
@@ -25,6 +27,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.33",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.4.0",
