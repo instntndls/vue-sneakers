@@ -10,8 +10,8 @@ import Profile from '@/pages/Profile.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/favorites', component: Favorites },
-  { path: '/profile', component: Profile },
+  { path: 'vue-sneakers/favorites', component: Favorites },
+  { path: 'vue-sneakers/profile', component: Profile },
 ]
 
 const router = createRouter({
