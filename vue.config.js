@@ -1,3 +1,4 @@
 module.exports = {
-  baseURL: 'https://instntndls.github.io/vue-sneakers/'
+  publicPath: '/vue-sneakers/',
+  assetsDir: '/vue-sneakers/assets/'
 }
