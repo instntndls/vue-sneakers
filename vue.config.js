@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/vue-sneakers/'
+  publicPath: '/vue-sneakers/',
+  assetsDir: '/vue-sneakers/',
+  filenameHashing: false
 }
