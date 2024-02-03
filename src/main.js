@@ -1,6 +1,6 @@
 import './assets/main.css'
 
-import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
+import { createMemoryHistory, createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import { createApp } from 'vue'
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
 import App from './App.vue'
@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/vue-sneakers/'),
   routes,
 })
 
