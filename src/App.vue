@@ -21,11 +21,9 @@ const addToCart = (item) => {
   if (item.isAdded) {
     cart.value.splice(itemIndex, 1)
     item.isAdded = false
-    /*alert(item.title + ' убраны из корзины.')*/
   } else {
     cart.value.push(item)
     item.isAdded = true
-    /*alert(item.title + ' добавлены в корзину!')*/
   }
 
 }
