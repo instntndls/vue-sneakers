@@ -13,12 +13,7 @@ onMounted( async () => {
   catch (err) { console.log(err) }
 })
 const noItems = () => {
-  if (favorites.value.length <= 0) {
-    return true
-  }
-  else {
-    return false
-  }
+  return favorites.value.length <= 0;
 }
 
 
