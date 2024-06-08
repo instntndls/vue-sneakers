@@ -28,12 +28,12 @@ const noItems = () => {
     <div class="flex flex-col gap-4 mb-6 mt-6">
       <div class="flex justify-between p-1">
         <span>Total:</span>
-        <b>{{ cartTotal }} rub.</b>
+        <b>{{ cartTotal }} $</b>
       </div>
 
       <div class="flex justify-between p-1">
         <span>Tax (5%):</span>
-        <b>{{  Math.round(cartTotal * 0.05)}} rub.</b>
+        <b>{{  Math.round(cartTotal * 0.05)}} $</b>
       </div>
 
       <button

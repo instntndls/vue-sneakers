@@ -34,7 +34,7 @@ const props = defineProps ({
 
         <div class="flex flex-col">
           <span class="text-slate-400">Price:</span>
-          <b>{{price}} rub.</b>
+          <b>{{price}} $</b>
         </div>
 
         <img :src="isAdded ? '/vue-sneakers/checked.svg' : '/vue-sneakers/plus.svg'" alt="Plus"

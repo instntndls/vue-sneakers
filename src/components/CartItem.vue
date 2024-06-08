@@ -21,7 +21,7 @@ const cart = inject('cart')
       <p>{{ title }}</p>
 
       <div class="flex justify-between ">
-        <b>{{ price }} rub.</b>
+        <b>{{ price }} $</b>
         <img class="cursor-pointer" src="/close.svg" alt="Close" @click ="addToCart(item)"/>
       </div>
     </div>

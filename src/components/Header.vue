@@ -25,7 +25,7 @@ defineProps({
     <ul class="flex items-center gap-6">
       <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black" @click="openDrawer">
         <img src="/cart.svg" alt="Cart">
-        <b>{{ total }} rub.</b>
+        <b>{{ total }} $</b>
       </li>
       <router-link to="/favorites">
         <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
