@@ -1,8 +1,8 @@
 # vue-sneakers
 
-This template should help get you started developing with Vue 3 in Vite.
+Simple sneaker-shop project made with Vue 3 in Vite.
 
-| ![alt text](http://url/to/img.png) | ![alt text](http://url/to/img.png) |
+| ![alt text](https://github.com/instntndls/vue-sneakers/blob/master/src/assets/screenshots/localhost_8000_vue-sneakers_.png?raw=true) | ![alt text](https://github.com/instntndls/vue-sneakers/blob/master/src/assets/screenshots/localhost_8000_vue-sneakers_%20(1).png?raw=true) |
 | - | - |
 
 ## Recommended IDE Setup
